@@ -1,12 +1,13 @@
 {
-  "name": "launchdarkly-coderefs-test",
-  "version": "0.0.0",
+  "name": "angular-ld-find-code-refs-docker",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "coderefs": "./coderefs.sh"
   },
   "private": true,
   "dependencies": {

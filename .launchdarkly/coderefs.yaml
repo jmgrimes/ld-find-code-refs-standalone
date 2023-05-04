@@ -1,0 +1,11 @@
+repoName: launchdarkly-coderefs-test
+repoType: github
+defaultBranch: main
+contextLines: 2
+lookback: 10
+projects:
+- key: jgrimes-playground
+  dir: src
+  aliases:
+  - type: snakecase
+  - type: kebabcase
